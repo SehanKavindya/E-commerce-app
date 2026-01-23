@@ -3,6 +3,7 @@ import './App.css'
 import { useState } from 'react'
 import SearchBar from './components/Molecules/Searchbar'
 import Header from './components/organisms/Header'
+import Footer from './components/organisms/Footer'
 
 
 
@@ -13,6 +14,7 @@ function App() {
     <>
       <div className='app-container'>
      <Header/>
+     <Footer/>
       </div>
     </>
   )
