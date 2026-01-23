@@ -1,10 +1,10 @@
+import Herosection from "../components/organisms/Herosection";
+
 const Home  = () => {
     return (
         <>
-        <div className='app-container'>
-            <h1>
-                Welcome to Sportsshop</h1>
-        </div>
+            <Herosection />
+            
         </>
     );
 };
